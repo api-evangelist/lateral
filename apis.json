@@ -1,0 +1,71 @@
+{
+    "name": "Lateral",
+    "description": "Lateral's mission is to help people discover the information they need when they need it. In doing so we hope to accelerate discovery, understanding and collaboration in a wide range of disciplines.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/18716-lateral.jpg",
+    "tags": [
+        "api provider",
+        "api service provider",
+        "content",
+        "content discovery",
+        "have api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/lateral\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Lateral",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/18716-lateral.jpg",
+            "humanURL": "https:\/\/lateral.io",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/lateral-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Blog",
+            "url": "https:\/\/blog.lateral.io\/"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "https:\/\/blog.lateral.io\/feed\/"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/lateral-2"
+        },
+        {
+            "type": "Email",
+            "url": "hello@lateral.io"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/lateral"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/uselateral"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/lateral_kane"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/lateral.io\/"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/lateral.io"
+        }
+    ]
+}
