@@ -1,19 +1,50 @@
 aid: lateral
 name: Lateral
-description: Lateral is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Lateral was a Berlin- and Hobart-based AI research software company founded
+  in 2013 that built machine-learning powered content recommendation and document navigation
+  tools. Its early product was a conceptual text-matching and recommendation API that
+  let developers insert documents and retrieve semantically similar content, with pre-populated
+  corpora covering arXiv, PubMed, Wikipedia, news and SEC filings. The company later
+  pivoted to an LLM-assisted research workspace for navigating information across large
+  document sets, and published open-source research on hyperbolic-space word embeddings
+  (Poincare embeddings, hyperplane hashers, WARP recommenders). Lateral was permanently
+  shut down on 26 June 2025; the team pointed users to a successor open-source research
+  platform at coordination.network. The public API, its documentation host and the
+  application host are all retired, so this profile documents a historical API surface
+  and the client libraries that remain published.'
 url: https://raw.githubusercontent.com/api-evangelist/lateral/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/604f6b2251674c0379a638b8/61a511aeafe19f5ff2965c3a_lateral.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: sunset
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Recommendations
+- Search
+- Research
+- Natural Language Processing
+- Document Management
+- Sunset
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +52,46 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/lateral-domain-security.yml
 - type: Website
-  url: http://lateral.io
+  url: https://www.lateral.io
+- type: About
+  url: https://www.lateral.io/about
+- type: HelpCenter
+  url: https://www.lateral.io/help
+- type: Blog
+  url: https://www.lateral.io/resources/blog
+- type: Pricing
+  url: https://www.lateral.io/pricing
+- type: TermsOfService
+  url: https://www.lateral.io/terms-privacy-security
+- type: PrivacyPolicy
+  url: https://www.lateral.io/privacy-policy/version-1-2
+- type: GitHubOrganization
+  url: https://github.com/lateral
+- type: Twitter
+  url: https://www.twitter.com/uselateral
+- type: LinkedIn
+  url: https://www.linkedin.com/company/lateral-gmbh
+- type: YouTube
+  url: https://www.youtube.com/channel/UC1l_3I62o9v7Q7N8zKQvVwQ
+- type: Email
+  url: mailto:hello@lateral.io
+- type: Successor
+  url: https://www.coordination.network
+- type: Packages
+  url: packages/lateral-packages.yml
+- type: SDKs
+  url: packages/lateral-packages.yml
+- type: WellKnown
+  url: well-known/lateral-well-known.yml
+- type: Lifecycle
+  url: lifecycle/lateral-lifecycle.yml
+- type: LLMsTxt
+  url: llms/lateral-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
