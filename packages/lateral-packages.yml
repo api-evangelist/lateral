@@ -1,0 +1,58 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/lateral
+notes: >-
+  Lateral shut down on 2025-06-26 and its API/documentation hosts are retired, but the
+  client libraries it published remain available. Registry presence was verified live;
+  the Python client was never published to PyPI and is installable only from source.
+packages:
+- language: ruby
+  registry: rubygems
+  name: lateral_recommender
+  url: https://rubygems.org/gems/lateral_recommender
+  install: gem install lateral_recommender
+  version: 0.0.7
+  source_code: https://github.com/lateral/recommender-gem
+  author: Max Novakovic
+  description: Wrapper around the Lateral API (conceptual text-matching and recommendation).
+  official: true
+  status: unmaintained
+- language: python
+  registry: source
+  name: lateral-py
+  url: https://github.com/lateral/lateral-py
+  install: pip install -e git+https://github.com/lateral/lateral-py#egg=lateral-py
+  source_code: https://github.com/lateral/lateral-py
+  description: Python client library for using the Lateral API. Not published to PyPI;
+    install from source.
+  official: true
+  status: unmaintained
+  registry_status: not-published
+- language: ruby
+  registry: rubygems
+  name: lateral
+  url: https://rubygems.org/gems/lateral
+  install: gem install lateral
+  version: 0.1.0
+  source_code: https://github.com/navinpeiris/lateral
+  author: Navin Peiris
+  description: Third-party Ruby wrapper for the lateral.io content recommendation API.
+  official: false
+  status: unmaintained
+registries_checked:
+- registry: npm
+  result: no first-party package found
+- registry: pypi
+  result: no package found (lateral, lateral-py, lateralpy, lateral_py all 404)
+- registry: rubygems
+  result: lateral_recommender (official), lateral (third-party)
+- registry: pkg.go.dev
+  result: none
+- registry: maven-central
+  result: none
+- registry: nuget
+  result: none
+- registry: packagist
+  result: none
+- registry: crates.io
+  result: none

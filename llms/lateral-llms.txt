@@ -1,0 +1,49 @@
+# Lateral
+
+> Lateral was a Berlin- and Hobart-based AI research software company (founded 2013) that built
+> machine-learning content recommendation and document navigation tools, including a conceptual
+> text-matching API over user corpora and pre-populated arXiv, PubMed, Wikipedia, news and SEC
+> corpora. Lateral was permanently shut down on 26 June 2025 and its API, documentation and
+> application hosts are retired. The team pointed users to a successor open-source research
+> platform at coordination.network.
+
+## Status
+
+- [Sunset notice](https://www.lateral.io): Permanently shut down 26 June 2025; new signups closed.
+- [Coordination Network](https://www.coordination.network): Successor open-source research platform.
+- [Lifecycle artifact](lifecycle/lateral-lifecycle.yml): Sunset dates, retired hosts, historical API surface.
+
+## APIs
+
+No live API. The historical Lateral conceptual text-matching / recommendation API is offline;
+`api.lateral.io` and `docs.lateral.io` no longer resolve. No OpenAPI or other machine-readable
+specification was ever published or recovered.
+
+## Packages
+
+- [lateral_recommender](https://rubygems.org/gems/lateral_recommender): Official Ruby wrapper around the Lateral API (unmaintained).
+- [lateral-py](https://github.com/lateral/lateral-py): Official Python client, source-install only (never published to PyPI).
+- [Packages artifact](packages/lateral-packages.yml): Full registry sweep and results.
+
+## Open source
+
+- [GitHub organization](https://github.com/lateral): Machine-learning research code.
+- [poincare-embeddings](https://github.com/lateral/poincare-embeddings): Multi-threaded C++ implementation of Nickel & Kiela graph embeddings.
+- [minkowski](https://github.com/lateral/minkowski): Skip-gram word embeddings in hyperbolic space.
+- [hyperplane-hasher](https://github.com/lateral/hyperplane-hasher): Nearest neighbours via hyperplane hashers.
+- [warpspeed](https://github.com/lateral/warpspeed): WARP/FM hybrid recommendation in Cython.
+
+## Company
+
+- [About](https://www.lateral.io/about): Company, founders, Berlin and Hobart teams.
+- [Help](https://www.lateral.io/help): Product help pages.
+- [Blog](https://www.lateral.io/resources/blog): Research and product writing.
+- [Pricing](https://www.lateral.io/pricing): Historical plan pages.
+- [Terms, Privacy, Security](https://www.lateral.io/terms-privacy-security): Legal.
+- [Privacy Policy](https://www.lateral.io/privacy-policy/version-1-2): Privacy policy v1.2.
+
+## Discovery
+
+- [Well-known sweep](well-known/lateral-well-known.yml): No discovery documents published.
+- [Domain security](security/lateral-domain-security.yml): TLS/HSTS/DNS posture probe.
+- [APIs.json](apis.yml): API Evangelist profile for Lateral.

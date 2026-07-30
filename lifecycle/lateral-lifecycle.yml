@@ -1,0 +1,48 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.lateral.io
+status: sunset
+summary: >-
+  Lateral was permanently shut down on 26 June 2025. New signups are closed, the
+  application host and API/documentation hosts no longer resolve, and the company
+  directed users to a successor open-source research platform at coordination.network.
+sunset:
+  date: '2025-06-26'
+  announced_on: https://www.lateral.io
+  new_signups: closed
+  successor: https://www.coordination.network
+  successor_access: https://form.typeform.com/to/P0jnl7HK
+versioning:
+  scheme: unknown
+  docs: null
+  note: The API reference at lateral.io/docs/api/ and lateral.io/docs/text-matching/api-reference
+    redirected to docs.lateral.io, which no longer resolves (NXDOMAIN).
+deprecation:
+  policy_url: null
+  sunset_header: false
+  note: No published deprecation policy or RFC 8594 Sunset header support was found;
+    the entire product was retired outright.
+sla:
+  url: null
+  uptime_target: null
+status_page: null
+retired_hosts:
+- host: api.lateral.io
+  result: NXDOMAIN
+- host: docs.lateral.io
+  result: NXDOMAIN
+- host: app.lateral.io
+  result: NXDOMAIN
+historical_api:
+  name: Lateral Conceptual Text-Matching / Recommendation API
+  described_by: client library READMEs at https://github.com/lateral/lateral-py and
+    https://github.com/lateral/recommender-gem
+  authentication: API key supplied to the client constructor
+  capabilities:
+  - Insert documents into a personal corpus
+  - Recommend similar documents by text
+  - Recommend similar documents by stored document id
+  - Query pre-populated corpora (arXiv, PubMed, Wikipedia, news, SEC filings)
+  note: Recorded from surviving first-party client documentation only. The API itself
+    is offline and was not probed; no specification was ever recovered.
+deprecated_operations: []
