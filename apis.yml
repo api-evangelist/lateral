@@ -42,20 +42,21 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
-x-status: sunset
+x-status: defunct
 specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Recommendations
 - Search
 - Research
 - Natural Language Processing
-- Document-Management
+- Document Management
 - Sunset
+- Defunct
 tags_raw:
 - Company
 - Artificial Intelligence
@@ -66,6 +67,9 @@ tags_raw:
 - Natural Language Processing
 - Document Management
 - Sunset
+- Machine-Learning
+- Document-Management
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
