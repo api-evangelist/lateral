@@ -64,6 +64,49 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Lateral is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: seedcamp — http://lateral.io
+Lateral was a Berlin- and Hobart-based AI research software company founded in 2013 that built machine-learning powered content recommendation and document navigation tools. Its early product was a conceptual text-matching and recommendation API that let developers insert documents and retrieve semantically similar content, with pre-populated corpora covering arXiv, PubMed, Wikipedia, news and SEC filings. The company later pivoted to an LLM-assisted research workspace for navigating information across large document sets, and published open-source research on hyperbolic-space word embeddings (Poincare embeddings, hyperplane hashers, WARP recommenders). Lateral was permanently shut down on 26 June 2025; the team pointed users to a successor open-source research platform at coordination.network. The public API, its documentation host and the application host are all retired, so this profile documents a historical API surface and the client libraries that remain published.
+
+**Areas:** Company · Artificial Intelligence · Machine Learning · Recommendations · Search · Research · Natural Language Processing · Document Management · Sunset · Defunct
+
+## Lateral on APIs.io (historical record)
+
+Everything profiled for Lateral is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lateral/](https://apis.io/providers/lateral/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Lateral Domain Security](https://apis.io/security/lateral/lateral-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.lateral.io)
+- [Pricing](https://www.lateral.io/pricing)
+- [Blog](https://www.lateral.io/resources/blog)
+- [Terms of service](https://www.lateral.io/terms-privacy-security)
+- [Privacy policy](https://www.lateral.io/privacy-policy/version-1-2)
+- [GitHub](https://github.com/lateral)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Lateral: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lateral/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
